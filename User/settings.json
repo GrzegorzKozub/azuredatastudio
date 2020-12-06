@@ -1,5 +1,12 @@
 {
     "breadcrumbs.enabled": false,
+    "datasource.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458"
+        }
+    ],
+    "datasource.connections": [],
     "editor.codeLens": false,
     "editor.fontFamily": "Fira Code Retina, Fira Code",
     "editor.fontLigatures": true,
