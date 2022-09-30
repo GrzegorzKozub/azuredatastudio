@@ -1,45 +1,69 @@
 {
-    "breadcrumbs.enabled": false,
-    "datasource.connectionGroups": [
-        {
-            "name": "ROOT",
-            "id": "C777F06B-202E-4480-B475-FA416154D458"
-        }
-    ],
-    "datasource.connections": [],
-    "editor.codeLens": false,
-    "editor.fontFamily": "Fira Code Retina, Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 16,
-    "editor.minimap.enabled": false,
-    "editor.renderIndentGuides": false,
-    "editor.renderWhitespace": "trailing",
-    "editor.semanticHighlighting.enabled": false,
-    "editor.smoothScrolling": false,
-    "explorer.openEditors.visible": 0,
-    "extensions.autoUpdate": false,
-    "extensions.ignoreRecommendations": true,
-    "extensions.showRecommendationsOnlyOnDemand": true,
-    "files.hotExit": "onExitAndWindowClose",
-    "json.schemaDownload.enable": true,
-    "search.smartCase": true,
-    "terminal.external.linuxExec": "alacritty",
-    "terminal.external.osxExec": "alacritty",
-    "terminal.external.windowsExec": "wt.exe",
-    "terminal.integrated.fontSize": 17,
-    "terminal.integrated.fontWeightBold": "normal",
-    "terminal.integrated.shell.linux": "zsh",
-    "terminal.integrated.shell.windows": "pwsh.exe",
-    "terminal.integrated.shellArgs.windows": ["--nologo"],
-    "window.newWindowDimensions": "inherit",
-    "window.restoreWindows": "none",
-    "window.titleBarStyle": "custom",
-    "window.zoomLevel": 0,
-    "workbench.editor.showTabs": true,
-    "workbench.enablePreviewFeatures": true,
-    "workbench.list.smoothScrolling": false,
-    "workbench.settings.editor": "json",
-    "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
-    "workbench.tree.renderIndentGuides": "none",
+  "breadcrumbs.enabled": false,
+  "datasource.connectionGroups": [
+    {
+      "name": "ROOT",
+      "id": "C777F06B-202E-4480-B475-FA416154D458"
+    }
+  ],
+  "datasource.connections": [],
+  "editor.codeLens": false,
+  "editor.fontFamily": "Fira Code Retina, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.guides.indentation": false,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "editor.renderWhitespace": "trailing",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.smoothScrolling": false,
+  "editor.tabSize": 2,
+  "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": false,
+  "extensions.ignoreRecommendations": true,
+  "files.hotExit": "onExitAndWindowClose",
+  "json.schemaDownload.enable": true,
+  "search.smartCase": true,
+  "security.workspace.trust.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  "terminal.external.linuxExec": "alacritty",
+  "terminal.external.osxExec": "alacritty",
+  "terminal.external.windowsExec": "wt.exe",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.windows": "pwsh",
+  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.mouseWheelScrollSensitivity": 2,
+  "terminal.integrated.profiles.linux": {
+    "zsh": {
+      "icon": "terminal",
+      "path": "zsh"
+    }
+  },
+  "terminal.integrated.profiles.windows": {
+    "pwsh": {
+      "args": [
+        "--nologo"
+      ],
+      "icon": "terminal-powershell",
+      "path": "pwsh.exe"
+    }
+  },
+  "terminal.integrated.tabs.enabled": false,
+  "window.newWindowDimensions": "inherit",
+  "window.restoreWindows": "none",
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 0,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editorAssociations": {
+    "*.{sqlplan}": "workbench.editor.executionplan"
+  },
+  "workbench.enablePreviewFeatures": true,
+  "workbench.list.smoothScrolling": false,
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
 }
